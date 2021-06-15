@@ -23,7 +23,7 @@ def download_all_blobs_in_container(first_container_name,connect_str):
 
 def save_blob(file_name,file_content):
     # Get full path to the file
-    download_file_path = os.path.join("C:/Users/abd/Desktop/script/download", file_name)
+    download_file_path = os.path.join("./download", file_name)
  
     # for nested blobs, create local path as well!
     os.makedirs(os.path.dirname(download_file_path), exist_ok=True)

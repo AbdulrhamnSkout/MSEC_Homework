@@ -10,5 +10,5 @@ steps:
     azureSubscription: 'MSEC_Candidates_Homeworks(a8108c2b-496c-424d-8347-ecc8afb6384c)'
     ScriptType: 'FilePath'
     ScriptPath: './Deploy-AzTemplate.ps1'
-    ScriptArguments: -Location 'centralus' -ResourceGroupName 'abd-arm' -TemplateFile ./storageAccount.json
+    ScriptArguments: -Location 'centralus' -ResourceGroupName 'abd-arm1' -TemplateFile ./storageAccount.json
     azurePowerShellVersion: 'LatestVersion'

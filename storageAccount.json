@@ -6,26 +6,26 @@
     "variables": {},
     "resources": [
         {
-            "name": "abd-st-A",
+            "name": "abdsta1",
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "2019-06-01",
             "location": "[resourceGroup().location]",
             "kind": "StorageV2",
             "sku": {
-                "name": "Premium_LRS",
-                "tier": "Premium"
+               "name": "Standard_LRS",
+                "tier": "Standard"
             }
         },
 
         {
-            "name": "abd-st-B",
+            "name": "abdstb2",
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "2019-06-01",
             "location": "[resourceGroup().location]",
             "kind": "StorageV2",
             "sku": {
-                "name": "Premium_LRS",
-                "tier": "Premium"
+               "name": "Standard_LRS",
+                "tier": "Standard"
             }
         }
     ],

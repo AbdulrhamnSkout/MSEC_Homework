@@ -6,7 +6,7 @@
     "variables": {},
     "resources": [
         {
-            "name": "abdsta1",
+            "name": "abdsta12",
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "2019-06-01",
             "location": "[resourceGroup().location]",
@@ -18,7 +18,7 @@
         },
 
         {
-            "name": "abdstb2",
+            "name": "abdstb22",
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "2019-06-01",
             "location": "[resourceGroup().location]",
